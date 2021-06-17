@@ -63,7 +63,7 @@ public class FirstLevel extends JPanel implements Collision {
         if (collision(player, enemy1) || collision(player, enemy2) || collision(player, enemy3) || collision(player, enemy4)) {
             JFrame startOverButton = new JFrame();
             startOverButton.setLocationRelativeTo(null);
-            JOptionPane.showMessageDialog(startOverButton, "first level: You are died!!,Please press OK if you want to stars Over");
+            JOptionPane.showMessageDialog(startOverButton, "You are died !!,Please press OK if you want to stars Over");
            resetPlayerAndEnemiesAfterCollision();
 
         }

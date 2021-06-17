@@ -18,10 +18,11 @@ public class GameMain extends JFrame   {
         startButton.setLocationRelativeTo(null);
         instruction.setLocationRelativeTo(null);
         JOptionPane.showMessageDialog(startButton, "Hello, Welcome to 'RESCUE THE ALIEN '.");
-        JOptionPane.showMessageDialog(instruction, "The rules are simple: " +
-                "*You can not get out of the frame" +
+        JOptionPane.showMessageDialog(instruction, "The rules are simple: \n" +
+
+                "*you can move the player using the the keyboard (arrows keys)\n* You can not get out of the frame" +
                 "\n *You must avoid the enemies" +
-                "\n* in order to win the game you need to pick up the alien");
+                "\n* in order to win the game you need to pick up the alien\nGoodluck!!");
     }
 
     public GameMain() {
