@@ -4,15 +4,22 @@ import java.awt.*;
 public class Alien {
     private int x;
     private int y;
+    private ImageIcon alienLevel2;
 
 
-     private ImageIcon icon;
     public Alien(int x, int y) {
         this.x = x;
         this.y = y;
-        icon=new ImageIcon("images/alienlevel2.jpg");
+        alienLevel2 =new ImageIcon("images/alienlevel2.jpg");
 
 
+    }
+    public ImageIcon getAlienLevel2() {
+        return alienLevel2;
+    }
+
+    public void setAlienLevel2(ImageIcon alienLevel2) {
+        this.alienLevel2 = alienLevel2;
     }
     public int getX() {
         return x;
@@ -33,7 +40,7 @@ public class Alien {
 
 
     public void paint(Graphics graphics,SecondLevel secondLevel) {
-        this.icon.paintIcon(secondLevel,graphics,this.x,this.y);
+        this.alienLevel2.paintIcon(secondLevel,graphics,this.x,this.y);
 
     }
 

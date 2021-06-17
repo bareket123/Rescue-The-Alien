@@ -14,6 +14,10 @@ public class Player implements Paintable {
         this.speed=Constants.PLAYER_SPEED;
     }
 
+    public int getSpeed() {
+        return speed;
+    }
+
     public int getX() {
         return x;
     }

@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class CurrenScene extends JPanel {
+
     private FirstLevel firstLevel;
     private SecondLevel secondLevel;
     private int sceneId;
@@ -31,7 +32,6 @@ public class CurrenScene extends JPanel {
                         createGraphics.dispose();
                     }
 
-
                     break;
                 case Constants.SECOND_LEVEL:
                     secondLevel.paint(g);
@@ -47,6 +47,7 @@ public class CurrenScene extends JPanel {
 
 
     }
+
     public void mainGameLoop() {
         new Thread(() -> {
             while (true) {
@@ -105,7 +106,13 @@ public class CurrenScene extends JPanel {
 
         }
 
+    public int getSceneId() {
+        return sceneId;
+    }
 
+    public void setSceneId(int sceneId) {
+        this.sceneId = sceneId;
+    }
 
     public FirstLevel getFirstLevel() {
         return firstLevel;

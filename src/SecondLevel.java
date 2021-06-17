@@ -12,7 +12,6 @@ public class SecondLevel extends JPanel implements Collision {
     private Enemy enemy6;
     private Enemy enemy7;
     private Alien alien;
-    private ImageIcon winnerIcon = new ImageIcon("images/winner.gif");
     private ImageIcon icon = new ImageIcon("images/spacesecond.gif");
 
     public SecondLevel(Player player, Enemy enemy1, Enemy enemy2, Enemy enemy3, Enemy enemy4) {
@@ -177,15 +176,6 @@ public class SecondLevel extends JPanel implements Collision {
 
     public void setEnemy7(Enemy enemy7) {
         this.enemy7 = enemy7;
-    }
-
-
-    public ImageIcon getWinnerIcon() {
-        return winnerIcon;
-    }
-
-    public void setWinnerIcon(ImageIcon winnerIcon) {
-        this.winnerIcon = winnerIcon;
     }
 
     public ImageIcon getIcon() {

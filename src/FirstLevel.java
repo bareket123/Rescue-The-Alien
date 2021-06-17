@@ -24,6 +24,8 @@ public class FirstLevel extends JPanel implements Collision {
 
     }
 
+
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
@@ -92,6 +94,12 @@ public class FirstLevel extends JPanel implements Collision {
             return false;
 
 
+    }public ImageIcon getAlienLevel1() {
+        return alienLevel1;
+    }
+
+    public void setAlienLevel1(ImageIcon alienLevel1) {
+        this.alienLevel1 = alienLevel1;
     }
 
     public Player getPlayer() {
