@@ -16,3 +16,10 @@ The game comprises two levels of varying difficulty; one with slower square move
 
 Download the project, look for the 'GameMain' class, and run it like a regular Java project.
 
+<h3>Demo</h3>
+
+
+
+https://github.com/bareket123/Rescue-The-Alien/assets/80274935/450a8308-e750-41a0-8089-9828a365680e
+
+
